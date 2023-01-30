@@ -1,0 +1,71 @@
+처음 깃 연동 할 때 (스프링)
+$ cd /c/work/springworkspace -연결할 경로
+git init
+git remote add origin https://github.com/Janghyerim/STS.git
+git remote -v 연결 되었는지 확인
+git add . (전체파일 업로드)
+git add 'ex00' (특정파일 업로드)
+git commit -m "first" 메세지 만들어서 같이 올릴수 있게 준비 해주는 작업
+git push origin master 최종 깃허브에 올리는 작업
+===========================================
+깃 연결 후 파일 업로드 시 
+cd ..
+cd ..
+ls
+cd work
+cd springworkspace
+git status
+파일 확인 후..
+git add '파일 이름'
+git commit -m "메세지"
+git push origin master
+===========================================
+내 파일이랑 레파지토리랑 끊기는 문구-
+git remote rm origin 원격 연결 끊는 방법 종료
+===========================================
+
+
+
+오라클 SQL git 올리기 
+
+git bash 드라이브 변경 :  cd e:  
+
+git 파일 생성 : git init
+
+ls : 파일 목록 보기 
+
+git status :  올릴 목록 보기
+
+git add ' name '   : 하나의 폴더 업로드
+git add .      : 해당 폴더에 있는 모든 폴더 업로드 
+
+git commit -m " mes"  : 커밋 메시지 작성 
+
+git remote add origin 올릴 본인 레파지토리 주소 : 레파지토리와 연결 
+
+git remote -v  : 연결 확인 
+
+git push origin master  : 최종 업로드 
+
+
+git remote rm origin : 레파지토리 연결 해제
+
+==============================
+<git branch 생성 방법>
+
+1. 로컬 폴더 생성햣 
+2. 생성한 폴더로 경로 이동
+3. git init
+4. git remote add origin https://github.com/Janghyerim/Team-Project.git
+5. git clone https://github.com/Janghyerim/Team-Project.git
+6. cd Team-Project (Team-Project : clone 받은 파일)
+7. git branch 브랜치명 (브랜치명은 자유)
+
+8. git checkout 브랜치명
+9. sts에서 clone 받은 파일 import 해서 수정 (대충 Txt파일 하나 넣어도 돼요)
+10. git add .
+11. git commit -m "limi"
+12. git branch (확인용:내가 가진 모든 브랜치)
+13. git push origin lee  깃허브에 연결
+
+끝! 
