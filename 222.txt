@@ -1,0 +1,9 @@
+
+기존 환경 변수 
+java-home 	open jdk : E:\Workspace\jspworkspace\jdk-11
+	
+
+
+
+Spring 환경 변수 
+jdk : C:\Program Files\Java\jdk-11.0.17
